@@ -6,3 +6,10 @@ venv
 
 #Ignore SQLite database files
 *.sqlite3
+
+# Ignore coverage info
+.coverage
+coverage.xml
+
+# Ignore xunit output
+unittests.xml
