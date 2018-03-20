@@ -1,4 +1,4 @@
-#!/usr/bin/env PYTHONWARNINGS=ignore python
+#!/usr/bin/env python
 import os
 import sys
 
