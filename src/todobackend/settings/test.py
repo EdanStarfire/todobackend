@@ -16,6 +16,7 @@ NOSE_ARGS = [
     '--xunit-file=%s/unittests.xml' % TEST_OUTPUT_DIR,
     '--cover-xml',                                          # Produce XML coverage info
     '--cover-xml-file=%s/coverage.xml' % TEST_OUTPUT_DIR,
+    '--exe',                                                # Allow EXE tests, (fix for WSL Bash)
 ]
 
 # Database
