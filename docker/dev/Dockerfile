@@ -3,7 +3,7 @@ LABEL Author Peter J. David <edanstarfire@msn.com>
 
 # Install build/dev dependencies
 RUN apt-get update && \
-    apt-get install -qy python-dev
+    apt-get install -qy python-dev libmysqlclient-dev
 
 # Activate virtual environment and install latest wheel support
 RUN . /appenv/bin/activate & \
